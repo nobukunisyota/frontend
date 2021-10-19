@@ -1,0 +1,9 @@
+version: "3"
+services:
+  node:
+    build: .
+    tty: true
+    volumes:
+      - .:/usr/src/app
+    ports:
+      - "3099:3000"
