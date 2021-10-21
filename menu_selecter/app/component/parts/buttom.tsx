@@ -1,7 +1,7 @@
 function Button() {
     return (
         <div>
-            <button>テスト</button>
+            <button></button>
         </div>
     )
 }
