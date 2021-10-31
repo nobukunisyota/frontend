@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="topview.css">
+    <title>今日の積み立て自動生成</title>
+    <script type="text/javascript" src="./main.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="main">
+            <h2>今日の積み立て自動生成ツール</h2>
+            <form action="POST">
+                <div>
+                    <label for="id-repo">リポジトリパス : </label> <br>
+                    <input id="id-repo" type="text" name="repository">
+                </div>
+                <div>
+                    <label for="id-commit">コミットメッセージ : </label> <br>
+                    <input id="id-commit" type="text" name="コミットメッセージ">
+                </div>
+                <div>
+                    <input type="button" value="積み立てる">
+                </div>
+                <div>
+                    <input type="button" value="Tweet!!" onclick="tweet()">
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
